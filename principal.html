@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Pagina Inicial</title>
+		<link rel="stylesheet" href="estilo.css" />
+        <link rel="stylesheet" href="css/cat.css">
+	</head>
+	<body>
+		<header>
+            <div class="logo">
+              <img src="img/2.png" alt="Logo">
+            </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="catalogop.html">CATÁLOGO</a></li>
+                <li><a href="Formulario.html">CONTÁCTOS</a></li>
+                <li><a href="login.html">INICIAR SESIÓN</a></li>
+              </ul>
+            </nav>
+          </header>
+
+		<div class="container-title">Peluches</div>
+
+		<main>
+			<div class="container-img">
+				<img
+					src="https://fabricadesuenos.com.mx/cdn/shop/products/Oso-Gigante-Beige.jpg?v=1611347586"
+					alt="imagen-producto"
+				/>
+			</div>
+			<div class="container-info-product">
+				<div class="container-price">
+					<span>S/195.00</span>
+					<i class="fa-solid fa-angle-right"></i>
+				</div>
+
+				<div class="container-details-product">
+					<div class="form-group">
+						<label for="colour">Envio</label>
+						<select name="colour" id="colour">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="rojo">Envio con Detalle</option>
+							<option value="blanco">Envio Estandar</option>
+							<option value="beige">Envio Premium</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="size">Talla</label>
+						<select name="size" id="size">
+							<option disabled selected value="">
+								Escoge una opción
+							</option>
+							<option value="40">Pequeño</option>
+							<option value="42">Mediano</option>
+							<option value="43">Grande</option>
+							<option value="44">Extra Grande</option>
+						</select>
+					</div>
+					<button class="btn-clean">Limpiar</button>
+				</div>
+
+				<div class="container-add-cart">
+					<div class="container-quantity">
+						<input
+							type="number"
+							placeholder="1"
+							value="1"
+							min="1"
+							class="input-quantity"
+						/>
+						<div class="btn-increment-decrement">
+							<i class="fa-solid fa-chevron-up" id="increment"></i>
+							<i class="fa-solid fa-chevron-down" id="decrement"></i>
+						</div>
+					</div>
+					<button class="btn-add-to-cart">
+						<i class="fa-solid fa-plus"></i>
+						Añadir al carrito
+					</button>
+				</div>
+
+				<div class="container-description">
+					<div class="title-description">
+						<h4>Descripción</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Laboriosam iure provident atque voluptatibus
+							reiciendis quae rerum, maxime placeat enim cupiditate
+							voluptatum, temporibus quis iusto. Enim eum qui delectus
+							deleniti similique? Lorem, ipsum dolor sit amet
+							consectetur adipisicing elit. Sint autem magni earum est
+							dolorem saepe perferendis repellat ipsam laudantium cum
+							assumenda quidem quam, vero similique? Iusto officiis
+							quod blanditiis iste?
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Información adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+				<div class="container-reviews">
+					<div class="title-reviews">
+						<h4>Reseñas</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-reviews hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+				<div class="container-social">
+					<span>Compartir</span>
+					<div class="container-buttons-social">
+						<a href="#"><i class="fa-solid fa-envelope"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<section class="container-related-products">
+			<h2>Productos Relacionados</h2>
+			<div class="card-list-products">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+							alt="producto-1"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Nike - Roshe Run</h3>
+							<p class="category">Calzado Deportivo</p>
+						</div>
+						<a href="catalogop.html"><div class="price">Ver Mas</div></a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://imgmedia.larepublica.pe/640x377/larepublica/original/2022/05/25/628ea3c0152e0076952ac910.webp"
+							alt="producto-2"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Computadoras</h3>
+							<p class="category">Electronica</p>
+						</div>
+						<a href="catalogop.html"><div class="price">Ver Mas</div></a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://hmperu.vtexassets.com/arquivos/ids/3295224/Gabardina-de-doble-botonadura---Beige---H-M-PE.jpg?v=1775668195"
+							alt="producto-3"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Abrigos de Mujer</h3>
+							<p class="category">Ropa</p>
+						</div>
+						<a href="catalogop.html"><div class="price">Ver Mas</div></a>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="https://home.ripley.com.pe/Attachment/WOP_5/2019267197161/2019267197161_2.jpg"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Secadora de Cabello</h3>
+							<p class="category">Electrodomesticos</p>
+						</div>
+						<a href="catalogop.html"><div class="price">Ver Mas</div></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p></p>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
